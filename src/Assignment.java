@@ -5,7 +5,7 @@ public class Assignment {
         try {
             int num = Integer.parseInt(args[0]);
             int x = 5*4;
-            for(int i = 1; i <= 12; i++) {
+            for(int i = 1; i <= 100; i++) {
                 int result = i * num;
                 System.out.println(num + " x " + i + " = " + result);
             }
