@@ -4,6 +4,7 @@ public class Assignment {
         // Remember to make a check on input
         try {
             int num = Integer.parseInt(args[0]);
+            int x = 5*4;
             for(int i = 1; i <= 10; i++) {
                 int result = i * num;
                 System.out.println(num + " x " + i + " = " + result);
