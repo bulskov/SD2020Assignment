@@ -1,7 +1,7 @@
 public class Assignment {
 
     public static void main(String[] args) {
-
+        // Remember to make a check on input
         try {
             int num = Integer.parseInt(args[0]);
             for(int i = 1; i <= 10; i++) {
